@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/playing" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="6dp"
+        android:text="Welcome Dear"
+        android:textColor="#b2bec3"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Now_Plaing"
+        style="@style/Base.TextAppearance.AppCompat."
+        android:text="NOW PLAYING" />
+
+    <TextView
+        android:id="@+id/Songs"
+        style="@style/Base.TextAppearance.AppCompat."
+        android:text="SONGS" />
+
+    <TextView
+        android:id="@+id/Artist"
+        style="@style/Base.TextAppearance.AppCompat."
+        android:text="ARTISTS" />
+
+</LinearLayout>
